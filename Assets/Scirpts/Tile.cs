@@ -5,8 +5,8 @@ using System;
 
 public class Tile : MonoBehaviour
 {
-    public TileData tileData = new TileData();
-    MeshRenderer meshRenderer;
+    public TileData tileData;
+    public MeshRenderer meshRenderer;
 
     bool isChanged;
     public bool IsChanged => isChanged;

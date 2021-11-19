@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[System.Serializable]
-public class TileData 
+[CreateAssetMenu(fileName = "TileData", menuName = "Scriptable Object/TileData", order = int.MaxValue)]
+public class TileData : ScriptableObject
 {
     public Color originColor;   
+    public Color answerColor;
 
 }
