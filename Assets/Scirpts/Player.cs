@@ -14,13 +14,17 @@ public class Player : MonoBehaviour
     Quaternion destRot = new Quaternion();
 
     [SerializeField] bool isMoving = false;
-    [SerializeField] bool isSpinning = false;    
+    [SerializeField] bool isSpinning = false;
 
     MeshRenderer cubeMeshRenderer;
 
+    int colorValue = 0;
 
-    private void Awake() {
-        cubeMeshRenderer = realCube.GetComponent<MeshRenderer>();        
+
+
+    private void Awake()
+    {
+        cubeMeshRenderer = realCube.GetComponent<MeshRenderer>();
     }
 
     private void Update()
@@ -131,15 +135,18 @@ public class Player : MonoBehaviour
             if (hit.transform.CompareTag("Tile"))
             {
                 var tile = hit.transform.GetComponent<Tile>();
+                tile.value = colorValue;
+                tile.ChangeColor(cubeMeshRenderer.material);
 
-                tile.ChangeColor(cubeMeshRenderer.material.color);
+
             }
         }
     }
 
-    public void ChangePlayerColor(Color color)
+    public void ChangePlayerMat(Material mat, int value)
     {
-        cubeMeshRenderer.material.color = color;
+        cubeMeshRenderer.material = mat;
+        colorValue = value;
     }
 
 }

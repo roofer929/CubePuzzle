@@ -5,14 +5,23 @@ using System;
 
 public class Tile : MonoBehaviour
 {
-    public TileData tileData;
-    public MeshRenderer meshRenderer;
 
+    #region tile Data
+    [SerializeField] private TileData tileData;
+    Material originMat;
+    Material answerMat;
+    public int answerValue; // 비교할 값
+    public int value; // 현재 값
+
+    #endregion
+
+    private MeshRenderer meshRenderer;
     bool isChanged;
     public bool IsChanged => isChanged;
-
-    public Action OnChangeColor;
+    public Action OnChangeMat;
     TileManager tileManager;
+
+
 
 
     private void Awake()
@@ -20,25 +29,24 @@ public class Tile : MonoBehaviour
         meshRenderer = GetComponent<MeshRenderer>();
         tileManager = GetComponentInParent<TileManager>();
         isChanged = false;
-        tileData.originColor = meshRenderer.material.color;
 
-        OnChangeColor += tileManager.ProcessCheck;
+        OnChangeMat += tileManager.ProcessCheck;
+        Init();
+        meshRenderer.material = originMat;
+    }
+
+    public void Init()
+    {
+        originMat = tileData.originMat;
+        answerMat = tileData.answerMat;
+        answerValue = tileData.answerValue;
     }
 
 
-    public void ChangeColor(Color cubeColor)
-    {
-        isChanged = !isChanged;
-
-        if (isChanged)
-        {
-            meshRenderer.material.color = cubeColor;
-        }
-        else
-        {
-            meshRenderer.material.color = tileData.originColor;
-        }
-
-        OnChangeColor();
+    public void ChangeColor(Material cubeMat)
+    {       
+        meshRenderer.material = cubeMat; // 플레이어 큐브의 색상으로 메테리얼 변경
+      
+        OnChangeMat();
     }
 }

@@ -20,7 +20,7 @@ public class TileManager : MonoBehaviour
         int i = 0;
         foreach (var tile in tileArray)
         {
-            if (tile.tileData.answerColor == tile.meshRenderer.material.color)
+            if (tile.value == tile.answerValue)
             {
                 i++;
             }
