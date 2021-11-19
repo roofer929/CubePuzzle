@@ -170,11 +170,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &105459684
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -284,11 +281,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &106477811
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -398,11 +392,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &137072528
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -512,11 +503,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &146923347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -626,11 +614,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &161240096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -840,11 +825,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &221602054
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -954,11 +936,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &250540951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1381,11 +1360,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &599126538
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1592,7 +1568,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e1da08b1e4361b746a4f8289d24261b0, type: 2}
+  - {fileID: 2100000, guid: 98aa2d7c2c466e2469ada2846f49e83b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1683,11 +1659,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &729641368
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1859,11 +1832,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!1 &847416608
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,11 +2139,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &1052815423
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2270,7 +2237,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 0a679af550ca17a4ca355e0ee92530cc, type: 2}
   originMat: {fileID: 0}
-  originValue: 0
 --- !u!65 &1132161911
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2394,11 +2360,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &1167168176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2509,7 +2472,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
   originMat: {fileID: 0}
-  originValue: 0
 --- !u!65 &1168341787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2745,11 +2707,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &1360970847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2859,11 +2818,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &1374409551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2973,11 +2929,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &1425714105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3087,11 +3040,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &1481751170
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3201,11 +3151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &1612854174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3301,11 +3248,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &1656682453
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3429,11 +3373,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &1676160407
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3617,11 +3558,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &1856678315
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3745,11 +3683,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &1928331706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3875,11 +3810,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: 59c0e855df3a02a4c8651326909f8044, type: 2}
-  originMat: {fileID: 0}
-  answerMat: {fileID: 0}
-  originValue: 0
+  answerValue: 0
   value: 0
-  meshRenderer: {fileID: 0}
 --- !u!65 &2126923579
 BoxCollider:
   m_ObjectHideFlags: 0
