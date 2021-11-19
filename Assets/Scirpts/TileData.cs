@@ -6,7 +6,6 @@ using UnityEngine;
 [System.Serializable]
 public class TileData 
 {
-    public Color originColor;
-    public Color changeColor;
+    public Color originColor;   
 
 }

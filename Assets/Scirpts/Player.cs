@@ -6,19 +6,22 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private Transform fakeCube = null;
     [SerializeField] private Transform realCube = null;
-
     [SerializeField] private float spinSpeed = 270;
     [SerializeField] float moveSpeed = 3f;
     Vector3 dir = new Vector3();
     Vector3 rotDir = new Vector3();
+    Vector3 destPos = new Vector3();
     Quaternion destRot = new Quaternion();
 
     [SerializeField] bool isMoving = false;
-    [SerializeField] bool isSpinning = false;
+    [SerializeField] bool isSpinning = false;    
+
+    MeshRenderer cubeMeshRenderer;
 
 
-
-    Vector3 destPos;
+    private void Awake() {
+        cubeMeshRenderer = realCube.GetComponent<MeshRenderer>();        
+    }
 
     private void Update()
     {
@@ -123,15 +126,20 @@ public class Player : MonoBehaviour
     public void CheckTile()
     {
         RaycastHit hit;
-        if(Physics.Raycast(realCube.position, Vector3.down, out hit, 1))
+        if (Physics.Raycast(realCube.position, Vector3.down, out hit, 1))
         {
-            if(hit.transform.CompareTag("Tile"))
+            if (hit.transform.CompareTag("Tile"))
             {
                 var tile = hit.transform.GetComponent<Tile>();
 
-                tile.ChangeColor();
+                tile.ChangeColor(cubeMeshRenderer.material.color);
             }
         }
-    }   
+    }
+
+    public void ChangePlayerColor(Color color)
+    {
+        cubeMeshRenderer.material.color = color;
+    }
 
 }

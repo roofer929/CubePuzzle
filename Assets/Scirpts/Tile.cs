@@ -26,13 +26,13 @@ public class Tile : MonoBehaviour
     }
 
 
-    public void ChangeColor()
+    public void ChangeColor(Color cubeColor)
     {
         isChanged = !isChanged;
 
         if (isChanged)
         {
-            meshRenderer.material.color = tileData.changeColor;
+            meshRenderer.material.color = cubeColor;
         }
         else
         {
